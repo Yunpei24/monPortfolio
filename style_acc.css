@@ -1,0 +1,143 @@
+/* style_acc.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #4c4d4e;
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 5px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #4c4d4e;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px; /* Adjust the width to match the size of your logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+ul li {
+    font-size: 23px;
+  }
+
+  #awards {
+    
+    background-color: rgb(250, 250, 101);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+  #certifications {
+    background-image: url("./images/certif1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 23px;
+  }
+
+  #education {
+    background-image: url("./images/edu-fd3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 23px;
+  }
+  
+/* Contact Form CSS */
+#contact {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  #contact h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .footer--left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .icons a:hover {
+    color: #007bff;
+  }
+  
+  .icons i {
+    transition: color 0.3s ease;
+  }
+  
+  .footer--left h4 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .footer--left h4 a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer--left h4 a i {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer--left h4 a:hover i {
+    transform: translateX(5px);
+  }
+  
+  
