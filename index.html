@@ -51,15 +51,15 @@
 </div>
 
 <script>
-    const googleDriveLink = 'https://drive.google.com/drive/folders/1NkUlY9PuLCCuVewtOgmYpv2KaIePB5uH?usp=sharing';
+    document.addEventListener('DOMContentLoaded', function() {
+        const googleDriveLink = 'https://drive.google.com/drive/folders/1NkUlY9PuLCCuVewtOgmYpv2KaIePB5uH?usp=sharing';
 
-    // Fonction pour rediriger l'utilisateur vers le lien de téléchargement direct du fichier PDF.
-    function downloadPDF() {
-        window.location.href = googleDriveLink; // Rediriger vers le lien pour télécharger le fichier.
-    }
+        function downloadPDF() {
+            window.location.href = googleDriveLink;
+        }
 
-    // Attachez l'événement de clic au bouton pour déclencher le téléchargement.
-    document.getElementById('CV_D').addEventListener('click', downloadPDF);
+        document.getElementById('CV_D').addEventListener('click', downloadPDF);
+    });
 </script>
   
 
