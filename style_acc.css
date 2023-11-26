@@ -62,7 +62,7 @@ ul li {
 
   #awards {
     
-    background-color: rgb(250, 250, 101);
+    background-color: rgb(235, 235, 177);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -140,4 +140,191 @@ ul li {
     transform: translateX(5px);
   }
   
+/* mediaqueries ************************************************************************/
+/* ******************************************************************************** */
+
+
+@media only screen and (max-width: 992px) {
+
+  .experience--part{
+      display: block;
+  }
+
+  .row{
+      font: 1em sans-serif;
+      display: block;
+  }
+  .col-sm-7 {
+      width:100%;
+  }
+
+  .col-sm-5 {
+      width:100%;
+  }
+  .experience--part__right{
+      width: 100%;
+  }
+
+  .experience--part__left{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+
+  .experience--part__rightCards{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      flex-wrap: wrap;
+  }
+
   
+
+  .work--title{
+      display: block;
+  }
+
+  .work--title div{
+      width: 100% !important;
+  }
+
+  .work--title div p{
+      margin-bottom: 30px;
+      margin-top: 10px;
+  }
+
+  .work--cards{
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      flex-wrap: wrap;
+      margin-top: 80px;
+  }
+
+  .work--card{
+      width: 47%;
+  }
+
+  .testimonials--card{
+      width: 47%;
+  }
+
+  .testimonials .container{
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      flex-wrap: wrap;
+  }
+
+  .footer--left{
+      width: 50%;
+  }
+
+  .footer--right{
+      width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px){
+
+  h3{
+      font-size: 24px;
+  }
+
+  .experience--part__rightCard{
+      width: 45%;
+  }
+
+  .experience{
+      /* background-color:#7562e010; */
+      padding: 60px 0 60px 0;
+      /* height: 90vh; */
+      margin-top:0px;
+  }
+
+  .partnerss{
+      background-color: #fafcfe;
+      height: inherit !important;
+      padding: 60px 0 60px 0;
+  }
+
+  #footer .container{
+      display: block;
+  }
+
+  
+
+  .footer--left{
+      width: 100%;
+  }
+
+  .footer--right{
+      margin-top: 30px;
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .work--card{
+      width: 100%;
+  }
+
+  .testimonials--card{
+      width: 100%;
+  }
+
+  .experience--part__rightCard{
+      width: 100%;
+  }
+
+  .experience{
+      /* background-color:#7562e010; */
+      padding: 60px 0 60px 0;
+      /* height: 90vh; */
+      margin-top:-100px;
+  }
+  
+  
+
+}
+
+@media (min-width: 576px)
+{
+  .container {
+      max-width: 720px;
+  }
+}
+
+
+@media (min-width: 1200px)
+{
+
+
+  .container {
+      max-width: 1140px;
+  }
+
+}
+@media (min-width: 992px)
+{
+  .container {
+      max-width: 960px;
+  }
+}
+
+
+@media (min-width: 768px)
+{
+
+  .container {
+      max-width: 1140px;
+  }
+}
+
+
+
+
+
+/* end media ********************************************************************************************/
+/* ********************************************************************************** */
