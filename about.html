@@ -1,273 +1,115 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my-works</title>
+    <title>My Projects - Joshua NIKIEMA Portfolio</title>
+    <meta name="description" content="Discover the Data Analysis, AI, and web development projects carried out by Joshua NIKIEMA.">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
+     <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/Logo-sf.png" alt="Joshua NIKIEMA Logo">
+            </a>
+             <button class="menu-toggle" aria-label="Toggle navigation">
+                 <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li> 
+                    <li><a href="background.html">BACKGROUND</a></li> 
+                    <li><a href="about.html" class="active">MY PROJECTS</a></li> 
+                    <li><a href="https://www.datacamp.com/portfolio/joshuanikiema24" target="_blank">DATACAMP PORTFOLIO</a></li> 
+                    <li><a href="#contact">CONTACT</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <!-- nav -->
-    <nav>
-        <img src="images/Logo-sf.png" class="logo">
-        <ul>
-            <li><a href="./index.html">HOME</a></li>
-            <li><a href="./background.html">BACKGROUND</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </nav>
-    <!-- fin nav -->
-
-    <!-- main content -->
     <main>
-        <!-- section experience*********** -->
-        <section class="partnerss" style="height: 200px; font-weight: bold; font-size: 21px; color: rgb(104, 15, 246);">
-            <div class="container waiting-bloc-text">
-                <p style="text-align: center;">In the course of my studies, I worked on some projects to improve my skills and to learn
-                    more about the field of computer science, data analysis and artificial intelligence.
-                    I worked on some projects with my friends and some others alone. I also worked on some projects 
-                    with my teachers. I will present to you some of them in this section.
-                </p>
+        <section class="container">
+            <div class="intro-works">
+                 <h2>My Work and Projects</h2>
+                 <p>
+                     Throughout my journey, I have had the opportunity to work on various projects to deepen my skills in IT, data analysis, and artificial intelligence, both alone and in teams. Here are some significant examples.
+                 </p> 
             </div>
-                 
+
+             <article class="project-section">
+                 <div class="container-flex">
+                     <div class="project-image">
+                         <img src="images/firstprojectBI.png" alt="Power BI Dashboard University Analysis">
+                     </div>
+                     <div class="project-text">
+                         <h3>University Analysis & Reporting (Power BI)</h3>
+                         <p>
+                             Designed a Power BI dashboard for a university to effectively visualize and manage teacher and student tardiness and absences. The goal is to optimize schedules and improve academic tracking.
+                         </p> 
+                         </div>
+                 </div>
+             </article>
+
+             <article class="project-section reverse">
+                 <div class="container-flex">
+                     <div class="project-image">
+                         <img src="images/generator.png" alt="Web Data Generator Interface">
+                     </div>
+                     <div class="project-text">
+                         <h3>Web Data Generator</h3>
+                         <p>
+                             Developed an interactive web application (potentially using Python/Flask/Django for the backend, not specified) to generate realistic and customizable datasets. Ideal for testing analysis algorithms or learning multidimensional database design.
+                         </p> 
+                          <a href="#" class="btn btn-secondary">View Site (Link to be added)</a>
+                     </div>
+                 </div>
+             </article>
+
+             <article class="project-section">
+                 <div class="container-flex">
+                    <div class="project-image">
+                        <img src="images/apimongo.png" alt="Streamlit Dashboard connected to MongoDB Atlas">
+                    </div>
+                     <div class="project-text">
+                         <h3>Dashboard via MongoDB Atlas API (Streamlit & FastAPI)</h3>
+                         <p>
+                            Created an API (FastAPI) to extract data from MongoDB Atlas and developed an interactive dashboard (Streamlit) to visualize this data. Allows for intuitive exploration and analysis of information.
+                         </p> 
+                         <a href="https://dashboardmongodatlasapp-josh24.streamlit.app/" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                     </div>
+                 </div>
+             </article>
+
         </section>
-
-<!--
-        <section class="experience">
-            <div class="container">
-
-               
-                
-                <div class="experience--part">
-                    <div class="experience--part__left">
-                        <h1>2+</h1>
-                        <p>Années d'expérience de travail</p>
-                    </div>
-
-                    <div class="experience--part__right">
-                        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, ullam?</h3>
-                        <div class="experience--part__rightCards">
-                            <div class="experience--part__rightCard">
-                                <div>
-
-                                    <i class="fas fa-drafting-compass"></i>
-
-                                    <h4>Product designer</h4>
-
-                                    <a href="#">Découvrir plus &nbsp;</i></a>
-                                </div>
-                            </div>
-                            
-                            <div class="experience--part__rightCard">
-                                <div>
-
-                                    <i class="fas fa-desktop"></i>
-                                    <h4>Product designer</h4>
-
-                                    <a href="#">Découvrir plus &nbsp;</i></a>
-                                </div>
-                            </div>
-                            
-                            <div class="experience--part__rightCard">
-                                <div>
-                                    <i class="fas fa-bolt"></i>
-                                    <h4>Product designer</h4>
-
-                                    <a href="#">Découvrir plus &nbsp;</i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- fin fin section****** -->
-
-
-<!--
-        <div class="container mt-5">
-             section work************************************************* 
-            <section class="work">
-                <div class="container">
-                    <div class="work--title">
-                        <div>
-                            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                        </div>
-
-                        <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit !</p>
-
-                            <a href="#">Explore more &nbsp;<i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    ***** 
-                    <div class="work--cards">
-                        <div class="work--card">
-                            <img src="res/images/image1-hover.jpeg" alt="image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            fin section work*************************************************
-        </div>-->
-
-        <!-- fin section************************************************* -->
-
-
-        <!-- fin prix section****** -->
-    <section>
-        <div class="container waiting-bloc-text">
-            <div class="row">
-
-                <div class="col-sm-5 text-center">
-                    <img class="waiting-cover" src="images/firstprojectBI.png" alt="cover" style="border-radius: 8px;">
-                </div>
-
-                <div class="col-sm-7">
-                    <h1 class="waiting-text-header text-violet" style="text-align: justify;">My first Analysis and Reporting Project with Power BI</h1>
-                    <p class="mt-3 text-dark" style="text-align: justify;">This Analysis and Reporting project, carried out using Power BI software,
-                        provides a solution to enable a university to effectively manage late arrivals and absences
-                        of lecturers and students. By focusing on proactive management and accurate monitoring, this 
-                        application provides crucial information to improve course scheduling and ensure optimal student 
-                        follow-up. Thanks to this Analysis and Reporting project with Power BI, the university 
-                        benefits from a powerful tool for improving the management of lecturers' timetabling and improve student 
-                        monitoring. By quickly identifying attendance problems, the university can take preventive and proactive 
-                        measures to ensure an optimal learning learning environment for everyone involved.</p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section >
-        <div class="container waiting-bloc-text" >
-            <div class="row">
-
-                <div class="col-sm-5 text-center">
-                    <img class="waiting-cover" src="images/generator.png" alt="cover" style="border-radius: 8px;">
-                </div>
-
-                <div class="col-sm-7">
-                    <h1 class="waiting-text-header text-violet" style="text-align: justify;">Development of a website for data generation</h1>
-                    <p class="mt-3 text-dark" style="text-align: justify;">My web application is a powerful data generator designed specifically to help 
-                        students test and learn about data analysis and multidimensional database design. This interactive application 
-                        offers a user-friendly and efficient solution for creating realistic, diverse, customisable and large datasets, 
-                        enabling users to practise and hone their skills in these essential areas.
-                        The web application I have developed is an invaluable tool for students and professionals seeking to gain experience 
-                        in data analysis and multidimensional database design. By providing a practical and efficient means of generating 
-                        realistic data, this application is a valuable asset for practical learning, academic and professional projects, 
-                        and helps to reinforce the skills that are essential for success in these constantly evolving fields..</p>
-                    <br>
-                    <p class="waiting-text-desc text-dark">
-                        <a href="#" class="btn btn-primary">See the website</a>
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section >
-        <div class="container waiting-bloc-text">
-            <div class="row">
-
-                <div class="col-sm-5 text-center">
-                    <img class="waiting-cover" src="images/apimongo.png" alt="cover" style="border-radius: 8px;">
-                </div>
-
-                <div class="col-sm-7">
-                    <h1 class="waiting-text-header text-violet" style="text-align: justify;">Dashboard for viewing data retrieved from mongoDB Atlas using an API</h1>
-                    <p class="mt-3 text-dark" style="text-align: justify;">This Data Visualisation Dashboard (developed with streamlit) that I developed offers an 
-                        immersive and informative experience by dynamically presenting data retrieved from MongoDB Atlas, thanks to a 
-                        custom API that I also designed with FastApi. This comprehensive and interactive solution enables users to visualise 
-                        and explore the information stored in the MongoDB database in a simple and effective way. The MongoDB Atlas Data 
-                        Visualisation Dashboard is a powerful tool for transforming raw data into actionable information. By providing 
-                        interactive visualisations, insightful analysis and real-time connectivity to MongoDB Atlas, this application 
-                        promotes more informed decision-making and helps users discover hidden trends and growth opportunities within their data.</p>
-                    <br>
-                    <p class="waiting-text-desc text-dark">
-                        <a href="https://dashboardmongodatlasapp-josh24.streamlit.app/" class="btn btn-primary">See the website</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-        <!-- fin fin section****** -->
-        <!-- section testimonials************************************************* 
-        <section class="testimonials" id="contact">
-            <div class="container">
-                <div class="testimonials--card">
-                    <div class="illus">
-                        <i class="fas fa-quote-right"></i>
-                        <img src="res/images/angebagui.jpeg" alt="image">
-                    </div>
-                    <div class="descrip">
-                        <p>&#10077; Pour l'avoir eu comme employé, je peux dire que Karim a le sens du travail bien
-                            fait,
-                            Il est tout aussi compétent que discipliné !
-                        </p>
-
-                        <span>CEO Adjemin</span>
-                    </div>
-                </div>
-
-                <div class="testimonials--card">
-                    <div class="illus">
-                        <i class="fas fa-quote-right"></i>
-                        <img src="res/images/theo.PNG" alt="image">
-                    </div>
-                    <div class="descrip">
-                        <p>&#10077; Karim est un pédagogue, il a l'art de partager ses connaissances.
-                            Nous avons de la chance de l'avoir comme Instructeur chez Gomycode .
-                        </p>
-
-                        <span>Manager à Gomycode,
-                            Country Launcher Côte d'Ivoire
-                        </span>
-                    </div>
-                </div>
-
-                <div class="testimonials--card">
-                    <div class="illus">
-                        <i class="fas fa-quote-right"></i>
-                        <img src="res/images/glodie.jpg" alt="image">
-                    </div>
-                    <div class="descrip">
-                        <p>&#10077; Pour avoir travaillé avec Karim, Je peux vous garantir expertise dans le travail.
-                            Aussi Rapide que precis !
-                        </p>
-
-                        <span>CEO IvoireDevAcademy</span>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
     </main>
-    <!--end main content -->
 
-    <!-- footer content  -->
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <h4>Let's Stay Connected</h4>
+            <div class="social-links">
+                <a href="https://github.com/Yunpei24" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/joshua-nikiema-17572b23b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/joshua_juste/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://t.me/JoshuaJuste" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            </div>
+            <div class="footer-contact">
+                <p>Ready to collaborate or discuss a project?</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:joshuanikiema24@gmail.com">joshuanikiema24@gmail.com</a></p>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Joshua NIKIEMA - All rights reserved.</p>
+                 <p>Designed by 2JYEN</p>
+            </div>
+        </div>
+    </footer>
 
-    <div class="footer--little">
-        <h4>Designed 2JYEN</h4>
-    </div>
-    <!--end footer content  -->
 
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script>
-        ScrollReveal().reveal('.work--cards');
-        ScrollReveal().reveal('.brand');
-        ScrollReveal().reveal('.testimonials');
-        ScrollReveal().reveal('.experience');
-        ScrollReveal().reveal('.experience--2');
-    </script>
-
+    <script src="script.js"></script>
 </body>
-
 </html>

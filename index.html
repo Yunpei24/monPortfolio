@@ -4,110 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joshua Portfolio Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Joshua NIKIEMA - Data Scientist & AI Portfolio</title>
+    <meta name="description" content="Portfolio of Joshua Juste NIKIEMA, Junior Data Scientist, AI & Analytics Engineer, ESMT graduate. Discover my projects and skills.">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <div class="hero">
-        <nav>
-            <img src="images/Logo-sf.png" class="logo">
-            <ul>
-                <li><a href="./background.html">BACKGROUND</a></li>
-                <li><a href="./about.html">ABOUT MY WORKS</a></li>
-                <li><a href="https://www.datacamp.com/portfolio/joshuanikiema24">MY DATA SCIENCE'S PORTFOLIO</a></li>
-            </ul>
-        </nav>
-        <div class="detel">
-            <h1>I'm <span>Joshua Juste</span> NIKIEMA</h1>
-            <p>This is my official Portfolio website to showcase my 
-                all works. <br> I'm a junior data scientist, an analysis and AI engineer <br> and a graduate of the <span>ESMT (Ecole Superieure Multinationale de Telecommunications)</span> in<br>Telecom design engineer specializing in data engineering
-                and artificial intelligence (BAC+5)</p>
-            <a id="CV_D" href="#">Downdload CV</a>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/Logo-sf.png" alt="Joshua NIKIEMA Logo">
+            </a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                 <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <li><a href="background.html">BACKGROUND</a></li>
+                    <li><a href="about.html">MY PROJECTS</a></li>
+                    <li><a href="https://www.datacamp.com/portfolio/joshuanikiema24" target="_blank">DATACAMP PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="images">
-            <img src="images/shape.png" class="shape">
-            <img src="images/just2.png" class="imgjosh">
-        </div>
-        <div class="social">
-            <a href="#"><i></i></a>
-        </div>
-        <section >
-            <div class="container waiting-bloc-text">
-                <div class="row">
-    
-                    <div class="col-sm-5 text-center">
-                        <img class="waiting-cover" src="images/fdTeam2.jpg" alt="cover" style="border-radius: 8px;">
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>I am <span class="highlight">Joshua Juste</span> NIKIEMA</h1>
+                    <p>
+                        Junior Data Scientist, Data Analytics & AI Engineer. <br>
+                        Graduate Telecom Design Engineer (Master's equivalent) from <span class="highlight">ESMT</span>, specializing in Data Engineering and Artificial Intelligence.
+                        Currently pursuing a Master's degree (African Master in Machine Intelligence) specialized in AI call AMMI at <span class="highlight">AIMS-Senegal</span>.<br>
+                        Discover my achievements and background.
+                    </p>
+                    <a id="CV_D" href="#" class="btn btn-primary">Download my Resume</a>
                     </div>
-    
-                    <div class="col-sm-7">
-                        <h1 class="waiting-text-header text-violet" style="text-align: justify;">Vice winner of the 2nd edition of the P.A.S Challenge in 2023</h1>
-                        <p class="mt-3 text-dark" style="text-align: justify;">For this 2nd edition of the challenge, I joined the girls' team in proposing a solution to 
-                            the problem of reforestation proposed by the UNDP. Our team set up an application based on AI, specifically 
-                            Computer Vision, which can map a well-defined area in order to monitor changes in vegetation cover and assess carbon credits.</p>
-                    </div>
+                <div class="hero-image-container">
+                    <img src="images/shape.png" class="shape" alt="">
+                    <img src="images/just.png" class="imgjosh" alt="Portrait of Joshua NIKIEMA">
                 </div>
             </div>
         </section>
-        <section >
-            <div class="container waiting-bloc-text">
-                <div class="row">
-    
-                    <div class="col-sm-5 text-center">
-                        <img class="waiting-cover" src="images/fdTeam.jpg" alt="cover" style="border-radius: 8px;">
+
+        <section class="project-highlight container">
+             <h2>Some Notable Achievements</h2>
+
+             <article class="project-section reverse">
+                 <div class="container-flex">
+                     <div class="project-image">
+                         <img src="images/fdTeam2.jpg" alt="Runner-up Team P.A.S Challenge 2023">
+                     </div>
+                     <div class="project-text">
+                         <h3>Runner-up - P.A.S Challenge 2023 (2nd edition)</h3>
+                         <p>
+                             Contributed to a reforestation tracking solution using Computer Vision (AI) for UNDP. Our application maps and assesses vegetation cover and carbon credits.
+                         </p>
+                         </div>
+                 </div>
+             </article>
+
+             <article class="project-section">
+                 <div class="container-flex">
+                    <div class="project-image">
+                        <img src="images/fdTeam.jpg" alt="Winning Team P.A.S Challenge 2022">
                     </div>
-    
-                    <div class="col-sm-7">
-                        <h1 class="waiting-text-header text-violet" style="text-align: justify;">The winning team in the P.A.S Challenge 1st edition in 2022</h1>
-                        <p class="mt-3 text-dark" style="text-align: justify;">The P.A.S (One Problem, One Algorithm, One Solution) challenge in 2022, the 1st edition of which was organised by the IAS (Institut des Algorithmes du Sénégal)
-                            in partnership with the UNDP and the AUF, was a competition aimed at proposing innovative solutions based on Artificial Intelligence to solve problems in areas such 
-                            as health, transport, education, agriculture and many others. Our team worked on transcribing the medical notes of health professionals in French and English, as well as
-                            in local languages (Wolof, Pular, Fongbe). As a result, we have developed a complete tool enabling healthcare professionals to transcribe, translate, edit and print digital prescriptions.</p>
-                    </div>
-                </div>
-            </div>
+                     <div class="project-text">
+                         <h3>Winning Team - P.A.S Challenge 2022 (1st edition)</h3>
+                         <p>
+                             Developed an AI tool (in partnership with IAS, UNDP, AUF) to transcribe and translate medical notes (French, English, local languages) to generate digital prescriptions.
+                         </p>
+                         </div>
+                 </div>
+             </article>
         </section>
-        <div class="social">
-            <a href="https://github.com/Yunpei24"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/joshua-nikiema-17572b23b/"><i class="fab fa-linkedin"></i></a>
-         </div>
-    </div>
 
-<!-- footer content  -->
+    </main>
 
-<footer id="footer" style="align-items: center;">
-    <div class="container" style="align-items: center;">
-        
-    </div>
-    
-</footer>
-<div class="footer--little">
-    <h4>Designed 2JYEN</h4>
-</div>
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <h4>Let's Stay Connected</h4>
+            <div class="social-links">
+                <a href="https://github.com/Yunpei24" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/joshua-nikiema-17572b23b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/joshua_juste/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://t.me/JoshuaJuste" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            </div>
+            <div class="footer-contact">
+                <p>Ready to collaborate or discuss a project?</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:joshuanikiema24@gmail.com">joshuanikiema24@gmail.com</a></p>
+                </div>
+            <div class="footer-bottom">
+                <p>© 2025 Joshua NIKIEMA - All rights reserved.</p>
+                 <p>Designed by 2JYEN</p>
+            </div>
+        </div>
+    </footer>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const googleDriveLink = 'https://drive.google.com/drive/folders/1NkUlY9PuLCCuVewtOgmYpv2KaIePB5uH?usp=sharing';
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 
-        function downloadPDF() {
-            window.location.href = googleDriveLink;
-        }
-
-        document.getElementById('CV_D').addEventListener('click', downloadPDF);
-    });
-</script>
-  
-
-<script src="https://unpkg.com/scrollreveal"></script>
-    
-<script>
-    ScrollReveal().reveal('.work--cards');
-    ScrollReveal().reveal('.brand');
-    ScrollReveal().reveal('.testimonials');
-    ScrollReveal().reveal('.experience');
-    ScrollReveal().reveal('.experience--2');
-</script>
 </body>
 </html>
